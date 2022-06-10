@@ -3,10 +3,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { useStateValue } from './StateProvider';
+import { auth } from './firebase';
 
 function Header() {
 
-  const [{basket}, dispatch] = useStateValue();
+  const [{basket, user}, dispatch] = useStateValue();
+
+  const handleAuthentication = () => {
+    if (user) {
+      auth.signOut();
+      }
+  }
 
   return (
 
@@ -24,10 +31,14 @@ function Header() {
 
           </div>
           <div className='header-nav'>
-            <div className="header-option">
+            <Link to={!user && '/login'}>
+            <div onClick={handleAuthentication}
+            className="header-option">
               <span className='header-option-line-1'>Hello Guest</span>
-              <span className='header-option-line-2'>Sign In</span>
+              <span className='header-option-line-2'>{user ? 'Sign Out' : 'Sign In'}</span>
             </div>
+            </Link>
+
             <div className="header-option">
               <span className='header-option-line-1'>Returns</span>
               <span className='header-option-line-2'>& Orders</span>
@@ -35,10 +46,6 @@ function Header() {
             <div className="header-option">
               <span className='header-option-line-1'>Your</span>
               <span className='header-option-line-2'>Prime</span>
-            </div>
-            <div className="header-option">
-              <span className='header-option-line-1'>Hello Guest</span>
-              <span className='header-option-line-2'>Sign In</span>
             </div>
 
             <Link to='/checkout'>
