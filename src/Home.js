@@ -11,22 +11,22 @@ function Home() {
 
          <div className="home-row">
            <Product
-           id='132131231'
+           id='123123123'
            title='The lean startup'
            price={29.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={5} />
 
            <Product
-           id='123123231'
-           title='The lean startup'
+           id='223123123123'
+           title='The lean startdown'
            price={239.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
 
            <Product
-           id='12678431'
-           title='The lean startup'
+           id='3123123123'
+           title='The lean side'
            price={209.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
@@ -34,22 +34,22 @@ function Home() {
 
          <div className="home-row">
            <Product
-           id='132131231'
-           title='The lean startup'
+           id='49182391'
+           title='The lean upworl'
            price={29.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={5} />
 
            <Product
-           id='123123231'
-           title='The lean startup'
+           id='912637'
+           title='just a title'
            price={239.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
 
            <Product
-           id='123253231'
-           title='The lean startup'
+           id='871253128'
+           title='The'
            price={129.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
