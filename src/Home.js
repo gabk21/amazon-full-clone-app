@@ -11,21 +11,21 @@ function Home() {
 
          <div className="home-row">
            <Product
-           id='132131231'
+           id='1'
            title='The lean startup'
            price={29.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={5} />
 
            <Product
-           id='123123231'
+           id='2'
            title='The lean startup'
            price={239.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
 
            <Product
-           id='12678431'
+           id='3'
            title='The lean startup'
            price={209.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
@@ -34,21 +34,21 @@ function Home() {
 
          <div className="home-row">
            <Product
-           id='132131231'
+           id='4'
            title='The lean startup'
            price={29.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={5} />
 
            <Product
-           id='123123231'
+           id='5'
            title='The lean startup'
            price={239.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
            rating={4} />
 
            <Product
-           id='123253231'
+           id='6'
            title='The lean startup'
            price={129.99}
            image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
